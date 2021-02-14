@@ -259,9 +259,6 @@ const seattle = {
     
     lima.render();
 
-
-
-
     
 
 
