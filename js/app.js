@@ -152,10 +152,10 @@ render: function () {
 
 const Lima = {
   Location : 'Lima',
-  minCust :  20,
-  maxCust : 38,
+  minCust :  2,
+  maxCust : 16,
   avgCookieSale : 0,
-  avgSale : 	2.3,
+  avgSale : 4.6,
   
   gitAvgSale : function (min , max){
     
