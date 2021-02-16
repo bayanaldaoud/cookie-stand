@@ -54,6 +54,8 @@ const tokyo = new Cookie('tokyo',3,24,1.2);
 const dubai = new Cookie('dubai',11,38,3.7);
 const paris = new Cookie('paris',20,38,2.3);
 const lima = new Cookie('lima',2,16,4.6);
+
+
 seattle.render();
 tokyo.render();
 dubai.render();
