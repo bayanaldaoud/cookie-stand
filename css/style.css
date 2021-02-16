@@ -1,3 +1,19 @@
+*{
+    background-color: rgb(228, 206, 173);
+}
+
+
+
+
+p{
+    text-align: center;
+    font-family: 'Long Cang', cursive;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+
+
+
 h1{
     color: rgba(119, 73, 3, 0.836);
     font-size: 100px;
@@ -9,3 +25,38 @@ h1{
  font-size: 25px;
 
  }
+
+ table{
+    background-color: rgb(175, 172, 139);
+    border-radius: 15px;
+    box-shadow: 0, 6px, 12px, rgba(0,0,0,0,23), 0 10px 40px rgba(0, 0, 0, 0.19);
+    margin: 15px auto 10px;
+    max-height: 100vh;
+    padding: 13px 10px 20px;
+    width: 85vw;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: rgb(56, 61, 52);
+    margin-bottom: 30px;
+
+ }
+ 
+table td {
+    border: 3px solid white;
+    padding:15px;
+  }
+
+  nav > ul > li {
+    margin: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+  }
+
+  img {
+    margin: 20px;
+    
+
+  }
