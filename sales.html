@@ -7,7 +7,8 @@
   
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="top-head">
@@ -27,6 +28,28 @@
     </nav>
     </div>
   </header>
+
+<main> <div class="form">
+  <form id="add-shop-form">
+    <fieldset>
+      <legend>Add  a  New   Store</legend>
+
+      <label for="shopLocation">Shop Location: </label>
+      <input type="text" name="shopLocation">
+
+      <label for="minCust">Minimum Customers per Hour: </label>
+      <input type="number" name="minCust">
+
+      <label for="maxCust">Maximum Customers per Hour: </label>
+      <input type="number" name="maxCust">
+
+      <label for="cookiesPerSale">Cookies per Sale</label>
+      <input type="number" name="cookiesPerSale" step="0.1">
+
+      <button>Add a Store</button>
+    </fieldset>
+  </form>
+</div></main>
 
   <img src="./img/salmon.png">
   
