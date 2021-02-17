@@ -104,7 +104,7 @@ function totalCookiesPerHour() {
   trElement.appendChild(tdElement);
   cookieshopTable.appendChild(trElement);
 }
-
+    
 
 new CookieShop('seattle',23,65,6.3);
 new CookieShop('tokyo',3,24,1.2);
@@ -121,9 +121,39 @@ function renderallcookieshops() {
   }  
 }  
 
+
+function addNewCookieShop(event) {
+  event.preventDefault();
+  // console.log(event);
+  // console.log(event.target);
+  // console.log(event.target.shopLocation);
+  // console.log
+ 
+  (event.target.shopLocation.value);
+  var newLoc = 
+ 
+  event.target.shopLocation.value;
+  var newMinCust = parseInt(event.target.minCust.value);
+  var newMaxCust = parseInt(event.target.maxCust.value);
+  var newCookiesPerSale = parseInt(event.target.cookiesPerSale.value);
+
+  new CookieShop(newLoc, newMinCust, newMaxCust, newCookiesPerSale);
+
+
+  cookieshopTable.innerHTML = '';
+  makeHeaderRow();
+  renderallcookieshops();
+  totalCookiesPerHour();
+}
+
+cookieShopForm.addEventListener('submit', addNewCookieShop);
+
+
+
 makeHeaderRow();
 renderallcookieshops();
 totalCookiesPerHour();
+
 
 
 
