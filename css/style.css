@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(228, 206, 173);
+    background-color: rgb(245, 236, 223);
 }
 
 
@@ -10,22 +10,50 @@ p{
     font-family: 'Long Cang', cursive;
     font-size: 20px;
     font-stretch: expanded;
+
 }
 
 
 
 h1{
-    color: rgba(119, 73, 3, 0.836);
+    color: rgba(78, 67, 50, 0.836);
     font-size: 100px;
     text-align: center;
     font-family: 'Indie Flower', cursive;
 }
 
  a {
- font-size: 25px;
+  
+  font-size: 20px;
+  margin-left:250px;
+  color: #000;
+
+ 
 
  }
+ h3{
+   font-weight: bold;
+   font-size: 20px;
+   color: rgb(54, 58, 116);
+   margin-top: 10px;
+   margin-left: 600px;
 
+ }
+ section.images{
+   margin-left: 500px;
+   
+
+ }
+ .ourloc {
+   margin-left: 250px;
+ }
+ .loc{
+   font-size: 20px;
+   font-weight: bold;
+ }
+ 
+ 
+  
  table{
     background-color: rgb(175, 172, 139);
     border-radius: 15px;
@@ -43,9 +71,14 @@ h1{
  }
  
 table td {
-    border: 3px solid white;
+    border: 3px solid rgb(100, 96, 96);
     padding:15px;
   }
+  table th ,tfoot{
+    border: 3px solid rgb(100, 96, 96);
+    background-color: rgb(192, 187, 180);
+  }
+  
 
   nav > ul > li {
     margin: 35px;
@@ -72,10 +105,10 @@ table td {
   }
   
      fieldset {
-   
+      border: 3px solid rgb(131, 128, 103);
     margin: auto;
     width: 70%;
-    padding: 20px;
+    padding: 30px;
     align-content: center;
    
   }  
@@ -88,11 +121,14 @@ table td {
   
   label, input {
     margin: 5px;
+    display: block ;
+    margin-left: 400px;
   }
+  
   
   form {
     margin-top: 25px;
     padding-bottom: 15px;
-    width:80vw;
+    width:100vw;
     float: left;
   } 
